@@ -1,0 +1,7 @@
+html{
+	background-image: url(img/map.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+	width: 100%;
+}
