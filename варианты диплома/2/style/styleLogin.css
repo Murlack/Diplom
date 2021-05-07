@@ -1,0 +1,76 @@
+.form_box{
+    margin-top: 100px;
+    padding: 0 120px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_box_form1{
+    width: 410px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 100px rgb(139, 139, 139),10px 10px 100px rgb(139, 139, 139);
+}
+.form_box_h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.form_box_div_input{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    margin:20px 0;
+    width: 70%;
+    height:40px;
+    border-radius: 50px;
+    border-color: rgb(180, 180, 179);
+    border-style: solid;
+    border-width: 1px;
+    
+    padding: 0 20px;
+}
+.password{
+    margin:20px 0;
+    width: 70%;
+    height:40px;
+    border-radius: 50px;
+    border-color: rgb(180, 180, 179);
+    border-style: solid;
+    border-width: 1px;
+    
+    padding: 0 20px;
+}
+.submit{
+    width: 70%;
+    height:40px;
+    width: 80%;
+    border-radius: 50px;
+    border-color: rgb(180, 180, 179);
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 20px;
+    border:none;
+    cursor: pointer;
+    color:rgb(129, 129, 129);
+}
+.submit:hover{
+    font-size: 20px;
+}
+.form_box_link_a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form_box_link1{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.form_box_link2{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(84, 84, 197);
+}

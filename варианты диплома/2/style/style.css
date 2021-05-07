@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(117, 117, 117)
+}
+.order_taxi_background{
+    margin-top: 75px;
+}
+li{
+    list-style-type: none;
+}
+input:focus{
+    outline: none;
+}
