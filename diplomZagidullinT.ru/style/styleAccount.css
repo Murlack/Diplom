@@ -1,0 +1,54 @@
+.acc_box{
+    width: auto;
+    margin-top: 100px;
+}
+.acc_box_main_img{
+    width: 164px;
+    height: 164px;
+    background-image: url("../img/Ellipse 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acc_box_main_namep{
+    margin-top: 10px;
+    font-size: 29px;
+    font-weight: lighter;
+}
+.acc_box_main_box{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.acc_box_main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.acc_box_main_boxes_inf1{
+    width: 500px;
+    height: 210px;
+    margin:0 20px 20px 20px;
+    padding: 30px 30px 0 30px;
+    border:1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+}
+.acc_box_main_boxes_inf1_box_h1{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.acc_box_main_boxes_inf1_box_p{
+    color:rgb(158, 158, 158);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.acc_box_main_boxes_inf1_box_a{
+    border:none;
+    border-top: 1px solid rgb(158, 158, 158);
+    color: rgb(129, 129, 230);
+}
+.acc_box_main_clone{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

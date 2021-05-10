@@ -1,0 +1,41 @@
+.acc_box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.acc_box_d{
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border:1px solid rgb(145, 145, 145);
+    border-radius: 10px;
+    text-align: center;
+}
+.acc_box_main_h1{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.acc_box_main_name{
+    font-size: 15px;
+    color: rgb(155, 155, 155);
+    margin-top: 5px;
+}
+.acc_box_main_name_p{
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    width: 250px;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 10px;
+    padding: 2px;
+}
+.eee{
+    margin-top: 20px;
+}
+.ccc{
+
+    margin-bottom: 20px;
+}
+.acc_box_pass{
+    color: rgb(110, 110, 218);
+    font-size: 18px;
+}

@@ -1,0 +1,55 @@
+.vacansy{
+    width: auto;
+    height: 500px;
+    background-color: #fff;
+    padding: 0 20%;
+    padding-top: 50px;
+    
+}
+.vacansy_h{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.vacansy_h_h1{
+    font-size: 35px;
+}
+.vacansy_inf{
+    display: flex;
+    justify-content: space-around;
+}
+.vacansy_inf_box{
+    width: 60%;
+    height: 55%;
+    box-shadow: -2px -2px 100px rgb(172, 172, 172);
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    margin:0 20px;
+}
+.vacansy_inf_box_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 100%;
+}
+.vacansy_inf_box_img_1{
+    background-image: url("../img/Group 30.png");
+}
+.vacansy_inf_box_img_2{
+    background-image: url("../img/Group 1312.png");
+}
+.vacansy_inf_box_img_3{
+    background-image: url("../img/MaskGroup.png");
+}
+.vacansy_inf_box_h1{
+    font-size: 25px;
+}
+.vacansy_inf_box_p{
+    color:#777777;
+    margin:5px 0;
+}
+.vacansy_inf_box_link{
+    color:cadetblue;
+}

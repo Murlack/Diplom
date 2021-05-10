@@ -1,0 +1,88 @@
+.history{
+    width: 100%;
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.history_box1{
+    /* border:1px solid black; */
+    width: 50%;
+}
+.history_box_box_h{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+.history_box_box_h_h1{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.history_box_box_h{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin: 20px 0;
+}
+.history_box_box_h_h2{
+    
+    font-size: 18px;
+    font-weight: lighter;
+}
+.coneiner_box_datetime{
+    width: 100%;
+    margin: 40px 0;
+}
+.history_box_hr{
+    border: none;
+    border-top:1px solid rgb(145, 145, 145);
+    margin:10px 0;
+}
+.history_box_dt{
+    display: flex;
+    justify-content: end;
+   
+}
+.history_box_hr2_div{
+    display: flex;
+    align-items: center;
+}
+.history_box_hr2{
+    width: 60px;
+    border:none;
+    border-bottom:1px dashed rgb(255, 255, 255);
+}
+.history_box_data{
+    font-size: 17px;
+    font-weight: lighter;
+    border: 2px dashed #18c421;
+    padding: 5px 10px;
+}
+.history_box_time{
+    font-size: 14px;
+    font-weight: lighter;
+    border: 1px dashed rgb(145, 145, 145);
+    padding: 5px 10px;
+}
+.history_box_map12{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.history_box_hr3{
+    width: 60px;
+    border:none;
+    border-bottom:1px dashed rgb(145, 145, 145);
+    margin:0 5px;
+}
+.history_box_map12_A{
+    font-size: 16px;
+    font-weight: lighter;
+    border: 1px dashed rgb(145, 145, 145);
+    padding: 5px 10px;
+}
+.history_box_map12_B{
+    font-size: 16px;
+    font-weight: lighter;
+    border: 1px dashed rgb(145, 145, 145);
+    padding: 5px 10px;
+}

@@ -1,0 +1,61 @@
+.news{
+    padding: 0 10%;
+    width: auto;
+    height: 1790px;
+    background-color: #1B1B1B;
+}
+.news_h{
+    display: flex;
+    justify-content: center;
+}
+.news_h_h1{
+    color: #fff;
+    font-size: 45px;
+    
+    margin: 40px 0 0 0;
+}
+.news_boxes{
+    display: flex;
+    
+    justify-content: center;
+}
+.news_box{
+    width: 450px;
+    height: 480px;
+    margin: 40px 20px;
+}
+.news_box_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 216px;
+}
+.news_box_img1{
+    background:url("../img/Group 1373.png");
+}
+.news_box_img2{
+    background:url("../img/Rectangle 815.png");
+}
+.news_box_img3{
+    background:url("../img/Rectangle 815 (1).png");
+}
+.news_box_img4{
+    background:url("../img/Group 1373 (1).png");
+}
+.news_box_img5{
+    background:url("../img/Group 1373 (2).png");
+}
+.news_box_img6{
+    background:url("../img/Group 1373 (3).png");
+}
+.news_box_h_h1{
+    color:#fff;
+    font-size: 40px;
+    
+    margin-top: 10px;
+}
+.news_box_p{
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+    margin-top: 10px;
+}
