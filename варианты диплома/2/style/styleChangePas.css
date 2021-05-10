@@ -1,0 +1,54 @@
+.changePas{
+    width: 100%;
+    margin: 100px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+}
+.changePas_box{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.changePas_box_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0 40px 0;
+}
+.changePas_box_box_h1{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.changePas_box_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+.changePas_box_form_input{
+    width: 100%;
+    padding: 5px 3px 6px 7px;
+}
+.changePas_box_form_input_submit{
+    margin-top: 20px;
+    padding: 18px 15px;
+    width: 100%;
+    background-color: rgb(117, 117, 209);
+    border-radius: 40px;
+    border:none;
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+}
+.changePas_box_form_input_submit:hover{
+    color:rgb(163, 163, 163);
+}
+.changePas_box_form_a{
+    padding: 10px 15px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+}

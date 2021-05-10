@@ -14,7 +14,7 @@
         <link href="style/styleMaps.css" rel="stylesheet">
         <link href="style/styleFooter.css" rel="stylesheet">
         <link href="style/styleLogin.css" rel="stylesheet">
-
+        <link href="style/styleChangePas.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     </head>
@@ -43,20 +43,25 @@
                 
             </header>
 
-            <div class="form_box">
-                <form method="POST" action="#" class="form_box_form1">
-                    <h1 class="form_box_h1">Авторизация</h1>
-                    <div class="form_box_div_input"><input type="name" id="name" class="name" placeholder="Имя" name="name"></div>
-                    <div class="form_box_div_input"><input type="password" id="password" class="password" placeholder="Пароль" name="password"></div>
-                    <div class="form_box_div_input"><input type="submit" id="submit" class="submit" value="Войти" name="submit"></div>
-                    <div class="form_box_link_a">
-                        <a href="#" class="form_box_link1">Не помните пароль</a>
+            <div class="changePas">
+                <form class="changePas_box" method="POST" action="#">
+                    <div class="changePas_box_box">
+                        <h1 class="changePas_box_box_h1">Изменить пароль</h1>
                     </div>
-                    <div class="form_box_link_a">
-                        <a href="#" class="form_box_link2">У меня нет аккаунта</a>
+                    <div class="changePas_box_form">
+                        <input type="text" class="changePas_box_form_input" name="password1" placeholder="Новый пароль">
+                    </div>
+                    <div class="changePas_box_form">
+                        <input type="password" class="changePas_box_form_input" name="password2" placeholder="Повтор пароля">
+                    </div>
+                    <div class="changePas_box_form">
+                        <input type="submit" class="changePas_box_form_input_submit" name="submit" value="Изменить">
+                    </div>
+                    <div class="changePas_box_form">
+                        <a href="#" class="changePas_box_form_a">Назад</a>
                     </div>
                 </form>
-                
+
             </div>
         </div>
     </body>

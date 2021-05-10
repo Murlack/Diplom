@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            deplom
+            diplom
         </title>
         <link href="style/style.css" rel="stylesheet">
         <link href="style/styleHeader.css" rel="stylesheet">
@@ -76,7 +76,7 @@
     
                                 </div>
                                 <div class="tariffs_box_1_submit_box">
-                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit">
+                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit" onclick="fun()">
                                 </div>
                             <!-- </div> -->
                         </div>
@@ -103,7 +103,7 @@
     
                                 </div>
                                 <div class="tariffs_box_1_submit_box">
-                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit">
+                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit"onclick="fun2()">
                                 </div>
                             <!-- </div> -->
                         </div>
@@ -130,7 +130,7 @@
     
                                 </div>
                                 <div class="tariffs_box_1_submit_box">
-                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit">
+                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit"onclick="fun3()">
                                 </div>
                             <!-- </div> -->
                         </div>
@@ -157,7 +157,7 @@
     
                                 </div>
                                 <div class="tariffs_box_1_submit_box">
-                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit tariffs_box_1_boxes_img_4_znachTEst">
+                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit tariffs_box_1_boxes_img_4_znachTEst"onclick="fun4()">
                                 </div>
                             <!-- </div> -->
                         </div>
@@ -184,7 +184,7 @@
     
                                 </div>
                                 <div class="tariffs_box_1_submit_box">
-                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit">
+                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit"onclick="fun5()">
                                 </div>
                             <!-- </div> -->
                         </div>
@@ -211,7 +211,7 @@
     
                                 </div>
                                 <div class="tariffs_box_1_submit_box">
-                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit">
+                                    <input type="submit" value="Вызвать такси" class="tariffs_box_1_submit"onclick="fun6()">
                                 </div>
                             <!-- </div> -->
                         </div>
@@ -415,6 +415,39 @@
                 <a href="https://vk.com/murlak" class="footer_a">VK</a>
                 <p class="footer_konf">Все права защищены © 2020 Атлобус, разработка сайта - Загидуллин Тимур. All rights reserved © 2020 Atlobus, website development-Zagidullin Timur</p>
             </footer>
+                <div id=test_box_form>
+                    
+                </div>
         </div>
+        <script>
+            function fun(){
+                let elem = document.getElementById("test_box_form");
+                elem.innerHTML = "<div class='test'><form class='test_box' action='#'' method='POST'><div class='test_box_box_a'>    <p class='test_box_p' onclick='funEX()'>ok</p> </div><h1 class='test_box_h1'>Заказ Такси</h1><div class='test_box_box_input'><input type='text' placeholder='тариф эконом' class='test_box_box_input_text' value='тариф эконом' name='tarif'></div><div class='test_box_box_input'><input type='phone' placeholder='+7(908) 332 34 09' class='test_box_box_input_text' value='' name='phone'></div><div class='test_box_box_input'><input type='text' placeholder='Начальный адресс' class='test_box_box_input_text' value='' name='adrA'></div><div class='test_box_box_input'><input type='text' placeholder='Конечный адресс' class='test_box_box_input_text' value='' name='adrB'></div><div class='test_box_box_input_box_sub'><input type='submit' value='Отправить' class='test_box_box_input_sub'name='submit'></div></form></div>";
+            }
+            function fun2(){
+                let elem = document.getElementById("test_box_form");
+                elem.innerHTML = "<div class='test'><form class='test_box' action='#'' method='POST'><div class='test_box_box_a'>    <p class='test_box_p' onclick='funEX()'>ok</p> </div><h1 class='test_box_h1'>Заказ Такси</h1><div class='test_box_box_input'><input type='text' placeholder='Детский' class='test_box_box_input_text' value='Детский' name='tarif'></div><div class='test_box_box_input'><input type='phone' placeholder='+7(908) 332 34 09' class='test_box_box_input_text' value='' name='phone'></div><div class='test_box_box_input'><input type='text' placeholder='Начальный адресс' class='test_box_box_input_text' value='' name='adrA'></div><div class='test_box_box_input'><input type='text' placeholder='Конечный адресс' class='test_box_box_input_text' value='' name='adrB'></div><div class='test_box_box_input_box_sub'><input type='submit' value='Отправить' class='test_box_box_input_sub'name='submit'></div></form></div>";
+            }
+            function fun3(){
+                let elem = document.getElementById("test_box_form");
+                elem.innerHTML = "<div class='test'><form class='test_box' action='#'' method='POST'><div class='test_box_box_a'>    <p class='test_box_p' onclick='funEX()'>ok</p> </div><h1 class='test_box_h1'>Заказ Такси</h1><div class='test_box_box_input'><input type='text' placeholder='Комфорт +' class='test_box_box_input_text' value='Комфорт +' name='tarif'></div><div class='test_box_box_input'><input type='phone' placeholder='+7(908) 332 34 09' class='test_box_box_input_text' value='' name='phone'></div><div class='test_box_box_input'><input type='text' placeholder='Начальный адресс' class='test_box_box_input_text' value='' name='adrA'></div><div class='test_box_box_input'><input type='text' placeholder='Конечный адресс' class='test_box_box_input_text' value='' name='adrB'></div><div class='test_box_box_input_box_sub'><input type='submit' value='Отправить' class='test_box_box_input_sub'name='submit'></div></form></div>";
+            }
+            function fun4(){
+                let elem = document.getElementById("test_box_form");
+                elem.innerHTML = "<div class='test'><form class='test_box' action='#'' method='POST'><div class='test_box_box_a'>    <p class='test_box_p' onclick='funEX()'>ok</p> </div><h1 class='test_box_h1'>Заказ Такси</h1><div class='test_box_box_input'><input type='text' placeholder='Как царь' class='test_box_box_input_text' value='Как царь' name='tarif'></div><div class='test_box_box_input'><input type='phone' placeholder='+7(908) 332 34 09' class='test_box_box_input_text' value='' name='phone'></div><div class='test_box_box_input'><input type='text' placeholder='Начальный адресс' class='test_box_box_input_text' value='' name='adrA'></div><div class='test_box_box_input'><input type='text' placeholder='Конечный адресс' class='test_box_box_input_text' value='' name='adrB'></div><div class='test_box_box_input_box_sub'><input type='submit' value='Отправить' class='test_box_box_input_sub'name='submit'></div></form></div>";
+            }
+            function fun5(){
+                let elem = document.getElementById("test_box_form");
+                elem.innerHTML = "<div class='test'><form class='test_box' action='#'' method='POST'><div class='test_box_box_a'>    <p class='test_box_p' onclick='funEX()'>ok</p> </div><h1 class='test_box_h1'>Заказ Такси</h1><div class='test_box_box_input'><input type='text' placeholder='Со скоростью звука' class='test_box_box_input_text' value='Со скоростью звука' name='tarif'></div><div class='test_box_box_input'><input type='phone' placeholder='+7(908) 332 34 09' class='test_box_box_input_text' value='' name='phone'></div><div class='test_box_box_input'><input type='text' placeholder='Начальный адресс' class='test_box_box_input_text' value='' name='adrA'></div><div class='test_box_box_input'><input type='text' placeholder='Конечный адресс' class='test_box_box_input_text' value='' name='adrB'></div><div class='test_box_box_input_box_sub'><input type='submit' value='Отправить' class='test_box_box_input_sub'name='submit'></div></form></div>";
+            }
+            function fun6(){
+                let elem = document.getElementById("test_box_form");
+                elem.innerHTML = "<div class='test'><form class='test_box' action='#'' method='POST'><div class='test_box_box_a'>    <p class='test_box_p' onclick='funEX()'>ok</p> </div><h1 class='test_box_h1'>Заказ Такси</h1><div class='test_box_box_input'><input type='text' placeholder='На стиле' class='test_box_box_input_text' value='На стиле' name='tarif'></div><div class='test_box_box_input'><input type='phone' placeholder='+7(908) 332 34 09' class='test_box_box_input_text' value='' name='phone'></div><div class='test_box_box_input'><input type='text' placeholder='Начальный адресс' class='test_box_box_input_text' value='' name='adrA'></div><div class='test_box_box_input'><input type='text' placeholder='Конечный адресс' class='test_box_box_input_text' value='' name='adrB'></div><div class='test_box_box_input_box_sub'><input type='submit' value='Отправить' class='test_box_box_input_sub'name='submit'></div></form></div>";
+            }
+            function funEX(){
+                let elem = document.getElementById("test_box_form");
+                elem.outerHTML="<div id=test_box_form></div>";
+            }
+        </script>
     </body>
 </html>

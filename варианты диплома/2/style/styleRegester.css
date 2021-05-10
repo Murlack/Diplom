@@ -6,3 +6,14 @@
 .form_box_radio{
     margin-right: 4px;
 }
+.password1{
+    margin:5px 0;
+    width: 70%;
+    height:40px;
+    border-radius: 50px;
+    border-color: rgb(180, 180, 179);
+    border-style: solid;
+    border-width: 1px;
+    
+    padding: 0 20px;
+}
