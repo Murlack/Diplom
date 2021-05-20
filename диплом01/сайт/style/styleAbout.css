@@ -1,0 +1,25 @@
+.about_main{
+    width: 100%;
+    height: 770px;
+    background-image: url("../img/dil-H3yxl7t2oNE-unsplash 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_main_box{
+    background-color: #fff;
+    width:55%;
+    height: 40%;
+    margin: 0 20% 0 0 ;
+    color: #0B0B0B;
+    padding: 57px;
+}
+.about_main_box_h1{
+    font-size: 46px;
+    margin: 0 0 20px 0;
+}
+.about_main_box_p{
+    font-size: 18px;
+}

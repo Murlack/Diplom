@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height:75px;
+    padding: 0px 120px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left: 0px;
+}
+.header_logatip{
+    width: 29px;
+    height: 34px;
+    background-image: url("../img/Layer.png ");
+}
+.header_links_1{
+    display: flex;
+    justify-content: space-between;
+}
+.header_links_1 a{
+    margin: 0px 5px;
+}
+.header_phone_num{
+    display: flex;
+}
+.header_phone_num_icon{
+    background-image: url("../img/Phone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+.header_links_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_links_2 a{
+    margin: 0px 5px;
+}
+.header_links_2_register{
+    padding: 10px 25px;
+    background-color: black;
+    color:#fff;
+    border-radius: 33px;
+}
